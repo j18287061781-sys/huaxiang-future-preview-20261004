@@ -1,0 +1,35 @@
+{
+    "name": "华享未来",
+    "short_name": "华享未来",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F8F6F1",
+    "theme_color": "#526B52",
+    "description": "华享未来是面向县域文化、山水风光、研学活动和地方好物的综合服务应用。",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

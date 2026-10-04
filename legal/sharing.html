@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第三方信息共享清单</title>
+<style>body{max-width:720px;margin:auto;padding:24px;font:17px/1.8 system-ui;background:white;color:#1c1c1e}h1{font-size:28px}h2{font-size:21px;margin-top:32px}a{color:#1675df}</style>
+<a href="javascript:history.back()">返回</a>
+<h1>第三方信息共享清单</h1>
+<p>更新日期：2026年9月9日<br>生效日期：2026年9月9日</p>
+<h2>当前共享范围</h2>
+<p>数字向导文字问答会通过華享未来服务端代理向DeepSeek官方API传递必要信息；除此之外，没有自动向广告、统计、行为画像、支付或登录服务共享用户信息。下列为当前安装的运行依赖与用户主动外部操作，不能把本地工具插件等同于已启用的云端服务。</p>
+<h2>DeepSeek官方API</h2>
+<p>提供方：DeepSeek。用途：華享未来县域文化数字向导文字问答。路径：Flutter→華享未来服务端代理→DeepSeek官方API；Base URL为https://api.deepseek.com，当前模型为deepseek-v4-flash，模型由服务端配置，Flutter不能指定。必要传输：用户主动提交的问题、当前countyId/县域名称、必要的数字向导身份信息、审核知识上下文及请求技术标识。服务端会校验县域、资料来源和结构化回答。不传输：DeepSeek API Key、Authorization Header、录音、定位、通讯录、本地收藏和浏览历史；当前ASR尚未接入。</p>
+<h2>shared_preferences 2.5.5</h2>
+<p>提供方：Flutter（flutter.dev）。用途：本机偏好与收藏/历史存储；不主动发送到插件作者服务器。项目入口：https://pub.dev/packages/shared_preferences 。</p>
+<h2>share_plus 12.0.2</h2>
+<p>提供方：Flutter Community。用途：用户主动调用系统分享面板。处理信息：所选内容标题、简介和已有网站链接；接收方由用户选择。无固定分享平台SDK。项目入口：https://pub.dev/packages/share_plus 。</p>
+<h2>url_launcher 6.3.2</h2>
+<p>提供方：Flutter（flutter.dev）。用途：交给系统拨号、邮件或浏览器应用。处理信息：客服电话、邮箱地址、用户明确填写的邮件主题与正文或选定网址；不读取通讯录、通话和邮箱内容。项目入口：https://pub.dev/packages/url_launcher 。</p>
+<h2>record 6.2.1</h2>
+<p>提供方：llfbandit / cow-level.ovh。用途：本地录音适配。当前ASR未启用、麦克风声明已移除，因此不录音、不传输音频。不是云端语音供应商。项目入口：https://pub.dev/packages/record 。</p>
+<h2>permission_handler 12.0.3</h2>
+<p>提供方：Baseflow。用途：原生权限状态和系统设置适配；目前没有敏感权限请求。仅未来启用语音后的按需授权流程使用，不将权限状态上传到作者服务器。项目入口：https://pub.dev/packages/permission_handler 。</p>
+<h2>http 1.6.0</h2>
+<p>提供方：Dart（dart.dev）。用途：向華享未来自有HTTPS代理发起数字向导文字问答请求。DeepSeek凭证只在服务端环境变量中管理，不进入Flutter客户端。不是模型提供商。项目入口：https://pub.dev/packages/http 。</p>
+<h2>Flutter 与 cupertino_icons 1.0.8</h2>
+<p>提供方：Flutter / Dart开源项目。用途：界面、字体图标及平台运行时；不属于对外数据共享SDK。原生平台实现与AndroidX等传递依赖用于上述本地能力，没有另行接入统计、广告或WebView。</p>
+<h2>path_provider 2.1.6、jni / jni_flutter</h2>
+<p>提供方：Flutter / Dart native开源项目。用途：应用私有目录和Android本地Java互操作；不另行收集或上传用户信息。</p>
+<h2>用户主动邮件与咨询</h2>
+<p>您可以使用系统邮件应用向huaxiangchuanglian@163.com发送反馈。收件邮箱为163邮箱服务；实际发送应用和账号由您选择，发送可能涉及反馈正文、您自愿提供的联系方式及发件邮箱。电话由系统拨号应用处理；客服二维码仅展示随包图片，扫码应用由用户自行选择。</p>
+<h2>ASR未接入</h2>
+<p>当前没有正式语音识别供应商，不录音、不向任何语音供应商传输音频。record和permission_handler仅保留适配依赖，当前不申请麦克风权限。正式ASR接入前须另行核实供应商、处理目的、信息范围、保存期限、权限和隐私入口，并同步更新本清单、隐私政策与SDK清单。</p>
+</html>
