@@ -39,5 +39,6 @@ _flutter.buildConfig = {"engineRevision":"69c8c61792f04cc809dfef0c910414fb9afc06
 _flutter.loader.load({
   config: {
     canvasKitBaseUrl: new URL('canvaskit/', document.baseURI).href,
+    entrypointUrl: new URL('main.dart.js?v=bbac802', document.baseURI).href,
   },
 });
