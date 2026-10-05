@@ -1,5 +1,5 @@
 name: huaxiang_future
-description: "華享未来 - 县域文化、文旅与产业服务平台。"
+description: "华享未来 - 县域文化、文旅与产业服务平台。"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
