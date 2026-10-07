@@ -106,6 +106,7 @@ flutter:
     - assets/images/explore_user/
     - assets/images/explore_generated/
     - assets/images/county_generated/
+    - assets/images/county_topics/
     - assets/images/company_news/
     - assets/images/home_company_hero/
     - assets/images/home_torch_covers/
