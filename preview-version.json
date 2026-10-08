@@ -1,5 +1,5 @@
 {
-  "feature": "iphone-preview-startup-guard-90s",
+  "version": "bfef36c8be58",
   "date": "2026-10-09",
-  "version": "bfef36c8be58"
+  "feature": "iphone-preview-startup-guard-90s-cache-bust"
 }
