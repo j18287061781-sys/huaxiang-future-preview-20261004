@@ -15,7 +15,8 @@
     panel.append(message, retry);
     document.body.append(panel);
   }
-  const timer = setTimeout(showFailure, 20000);
+  // Cold starts may need extra time to download and initialize CanvasKit.
+  const timer = setTimeout(showFailure, 90000);
   window.addEventListener('flutter-first-frame', () => {
     ready = true;
     clearTimeout(timer);
