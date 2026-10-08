@@ -1,5 +1,5 @@
 {
-  "feature": "temporary-preview-startup-diagnostics",
+  "feature": "preview-startup-loader-90s-fallback",
   "date": "2026-10-09",
-  "version": "bfef36c8be58-diag1"
+  "version": "bfef36c8be58-final1"
 }
