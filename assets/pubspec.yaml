@@ -104,6 +104,7 @@ flutter:
     - assets/images/web_faststart/
     - assets/images/home_counties/
     - assets/images/explore_user/
+    - assets/images/digital_topics/
     - assets/images/explore_generated/
     - assets/images/county_generated/
     - assets/images/county_topics/
