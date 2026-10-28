@@ -80,6 +80,7 @@ flutter:
     - assets/images/optimized/study/
     - assets/images/brand-huaxiang-mark.png
     - assets/images/digital_normalized/
+    - assets/images/digital_workbook/
     - assets/images/goods_detail/
     - assets/images/mini/
     - assets/images/mini_static/
@@ -105,12 +106,18 @@ flutter:
     - assets/images/home_counties/
     - assets/images/explore_user/
     - assets/images/digital_topics/
+    - assets/images/explore_real/
     - assets/images/explore_generated/
     - assets/images/county_generated/
     - assets/images/county_topics/
     - assets/images/company_news/
     - assets/images/home_company_hero/
+    - assets/images/home_torch_banner/
     - assets/images/home_torch_covers/
+    - assets/images/travel_real/
+    - assets/images/scenic-canyon-water.jpeg
+    - assets/images/scenic-cave-falls.jpeg
+    - assets/images/scenic-cliff-walk.jpeg
     - assets/images/project_cases/
     - assets/images/banner-01.jpeg
     - assets/images/banner-03.jpeg
@@ -144,6 +151,12 @@ flutter:
         - asset: assets/fonts/SongtiSC-Regular.ttc
           weight: 400
         - asset: assets/fonts/SongtiSC-Bold.ttf
+          weight: 700
+    - family: SourceHanSerifSC
+      fonts:
+        - asset: assets/fonts/SourceHanSerifSC-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SourceHanSerifSC-Bold.otf
           weight: 700
     - family: Roboto
       fonts:
